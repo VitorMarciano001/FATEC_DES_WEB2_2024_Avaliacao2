@@ -18,7 +18,7 @@ $validador->verificar_logado();
     
     <br>
     <a href="cadastro_vaga.php"><button >Cadastrar Vaga</button></a><br>
-    <a href="listar_vaga.php"><button >Listar vagas</button></a><br>
+    <a href="listar_vaga_controle.php"><button >Listar vagas</button></a><br>
     <a href="apagar_vaga.php"><button >Remover Vaga</button></a><br>
     <a href="login.php">Logout</a>
 </body>
