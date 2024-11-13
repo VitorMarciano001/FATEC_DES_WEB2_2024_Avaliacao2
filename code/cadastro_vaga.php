@@ -15,13 +15,13 @@ include 'util/checa_logado.php';
     <div style="height: 80%; width: 70%; display: flex; justify-content: center; align-items: center;">
         <form action="cadastro_controle.php" method="POST">
                 <label for="nome_empresa">Nome da Empresa</label><br>
-                <input type="text" name="nome_empresa" id="nome_empresa" placeholder="Nome da Empresa"><br>
+                <input type="text" name="nome_empresa" id="nome_empresa" placeholder="Nome da Empresa" required><br>
                 <label for="numero_whatsapp">WhatsApp</label><br>
-                <input type="text" name="numero_whatsapp" id="numero_whatsapp" placeholder="WhatsApp"><br>
+                <input type="text" name="numero_whatsapp" id="numero_whatsapp" placeholder="WhatsApp" required><br>
                 <label for="email_contato">E-mail para contato</label><br>
-                <input type="text" name="email_contato" id="email_contato" placeholder="E-mail"><br>
+                <input type="text" name="email_contato" id="email_contato" placeholder="E-mail" required><br>
                 <label for="descritivo_vaga">Descricção da vaga</label><br>
-                <textarea name="descritivo_vaga" id="descritivo_vaga" rows="4" cols="20" placeholder="Digite a descrição aqui"></textarea><br>
+                <textarea name="descritivo_vaga" id="descritivo_vaga" rows="4" cols="20" placeholder="Digite a descrição aqui" required></textarea><br>
                 <label for="curso">Curso</label>
                 <select name="curso" id="curso">
                     <option value="1">DSM</option>
